@@ -1,44 +1,38 @@
-# 🌱 Royal Farmfresh
+# ​ Royal Farmfresh
 
 **Fresh • Organic • Sustainable**
 
-Connecting you directly to local farmers for **fresh, organic, and premium-quality produce** — delivered straight to your table.  
+Connecting you directly to local farmers for **fresh, organic, and premium-quality produce** — delivered straight to your table.
 
 ---
 
-![Royal Farmfresh Banner](docs/images/banner.png)
+![Royal Farmfresh Banner](frontend/assets/images/banner.png)
 
 ---
 
-## ✨ Features  
+## ​ Features
 
 - 🌿 **100% Organic Products** – Certified organic produce from trusted farms  
-- 🚚 **Fast Delivery** – Same-day & next-day delivery options  
-- 🌍 **Sustainable Farming** – Supporting eco-friendly agricultural practices  
-- 📱 **Easy Ordering** – User-friendly web & mobile platform  
-- 🔒 **Quality Assurance** – Rigorous quality checks & freshness guarantee  
-- 💳 **Secure Payments** – Multiple payment options with safe transactions  
+- 🚚 **Fast Delivery** – Same-day & next-day options  
+- 🌍 **Sustainable Farming** – Supports eco-friendly practices  
+- 📱 **Easy Ordering** – Web & mobile friendly  
+- 🔒 **Quality Assurance** – Freshness guaranteed  
+- 💳 **Secure Payments** – Safe, multiple options  
 
 ---
 
-## 🛍️ Product Categories  
+##  Product Categories
 
-- 🥦 Fresh Vegetables – Seasonal & year-round organic vegetables  
-- 🍎 Fruits – Tree-fresh fruits & seasonal berries  
-- 🌿 Herbs & Spices – Fresh herbs & organic spices  
-- 🥛 Dairy Products – Farm-fresh milk, cheese & eggs  
-- 🌾 Grains & Pulses – Organic cereals, rice & legumes  
-- 🍯 Specialty Items – Honey, oils & artisanal farm products  
-
----
-
-## 🎯 Mission  
-
-To revolutionize the way people access fresh, organic produce by building a **direct bridge between sustainable farms and conscious consumers**, ensuring quality, freshness, and fair trade practices.  
+- Fresh Vegetables  
+- Fruits & Berries  
+- Herbs & Spices  
+- Dairy (Milk, Cheese, Eggs)  
+- Grains & Pulses  
+- Specialty Items (Honey, Oils, Artisanal)  
 
 ---
 
-## 💻 Technology Stack  
+##  Technology Stack
 
 ![Node.js](https://img.shields.io/badge/Node.js-14+-green?logo=node.js)  
 ![Express.js](https://img.shields.io/badge/Express.js-lightgrey?logo=express)  
@@ -49,97 +43,71 @@ To revolutionize the way people access fresh, organic produce by building a **di
 
 ---
 
-## 🚀 Getting Started  
+##  Getting Started
 
-### ✅ Prerequisites  
-- [Node.js](https://nodejs.org/) (v14 or higher)  
-- [MongoDB](https://www.mongodb.com/)  
-- [Git](https://git-scm.com/)  
+### Prerequisites
 
----
+- Node.js (v14+)  
+- MongoDB  
+- Git  
 
-### ⚡ Installation  
+### Installation Steps
 
-1️⃣ Clone the repository  
 ```bash
-git clone https://github.com/yourusername/Royal-Farmfresh.git
+git clone https://github.com/Joshuaolusheye-dev/Royal-Farmfresh.git
 cd Royal-Farmfresh
-
-2️⃣ Install dependencies
 npm install
-
-3️⃣ Setup environment variables
 cp .env.example .env
-# Update .env with your config
-
-4️⃣ Run the development server
+# Update .env
 npm run dev
+# Open http://localhost:3000
 
-5️⃣ Open your browser → http://localhost:3000
+| Landing Page                            | Products                                 | Checkout                                 |
+| --------------------------------------- | ---------------------------------------- | ---------------------------------------- |
+| ![](frontend/assets/images/landing.png) | ![](frontend/assets/images/products.png) | ![](frontend/assets/images/checkout.png) |
 
-📱 Screenshots
-Landing Page	Product Listing	Checkout
+Roadmap
 
-	
-	📋 Roadmap
+ *	iOS & Android App
 
- *  Mobile app (iOS & Android)
+ *	AI Recommendations
 
- *  AI-powered recommendation system
+ *	Subscription Box
 
- *  Subscription box service
+ *	Farmer Dashboard
 
- *  Farmer dashboard & analytics
+ *	Multi-language Support
 
- *  Multi-language support
+ *	Global Expansion
 
- *  International expansion
+Contributing
 
-## 🤝 Contributing
+1.	Fork
 
-We welcome contributions! Please follow these steps:
+2.	git checkout -b feature/<FeatureName>
 
-1. Fork the project
+3.	Commit changes
 
-2. Create your feature branch
+4.	Push branch
 
-git checkout -b feature/AmazingFeature
+5.	Open Pull Request
 
-3. Commit your changes
-git commit -m "Add some AmazingFeature"
+Project Lead
 
-4. Push to the branch
-git push origin feature/AmazingFeature
+Hosted & led by Joshua Olusheye Daboiku
 
-5. Open a Pull Request
+Contact
 
-👥 Team
+Website: www.royalfarmfresh.com
 
-👤 Project Lead: Joshua Olusheye Daboiku
+Email: info@royalfarmfresh.com
 
-📞 Contact
+Phone: +234-805-249-0681
 
-🌍 Website: www.royalfarmfresh.com
-✉️ Email: info@royalfarmfresh.com
-📱 Phone:  +234-805-249-0681
-📍 Address: Lagos, Nigeria
+Address: Lagos, Nigeria
 
-📄 License
+License
 
-This project is licensed under the MIT License – see the LICENSE file for details.
-
-🙏 Acknowledgments
-
-Thanks to all the local farmers who partner with us
-
-Our amazing development team
-
-The open-source community for their valuable contributions
-
-Our customers who trust us with their fresh produce needs
+MIT licensed — see LICENSE.
 
 Made with ❤️ in Nigeria 🇳🇬
-
-
-
-
