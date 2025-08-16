@@ -1,12 +1,5 @@
 # Node.js dependencies
 node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-package-lock.json
-yarn.lock
-.pnpm-debug.log
 
 # Environment variables
 .env
@@ -14,56 +7,25 @@ yarn.lock
 .env.*.local
 
 # Logs
-logs
+logs/
 *.log
-logs/*.log
 
-# Runtime data
-pids
-*.pid
-*.seed
-*.pid.lock
-
-# Coverage / testing
+# Coverage
 coverage/
 *.lcov
 .nyc_output/
 
-# Build outputs
+# Build output
 dist/
 build/
 .cache/
-.next/
-out/
-tmp/
-temp/
+/out/
 
-# Frontend assets
-*.DS_Store
-*.sass-cache/
-*.cache/
-*.parcel-cache/
-*.swp
-
-# IDE / Editor files
+# OS and editor files
+.DS_Store
+Thumbs.db
 .vscode/
 .idea/
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
 
-# OS specific
-Thumbs.db
-.DS_Store
-ehthumbs.db
-Icon?
-
-# Docker
-docker-compose.override.yml
-*.env.docker
-
-# Others
-*.tgz
-*.bak
-*.orig
+# Ignoring image caches
+*.cache
